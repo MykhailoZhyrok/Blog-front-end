@@ -1,0 +1,34 @@
+.ulNav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.linkNav {
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.buttonNav {
+    display: inline-block;
+    font-size: 24 px;
+    letter-spacing: 1.6;
+    color: rgb(86, 80, 80);
+    background-color: rgb(31, 23, 23);
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-color: aliceblue;
+    border-radius: 10px;
+}
+.buttonNav:hover {
+    color: rgb(252, 1, 176);
+    text-shadow: 0 0 10px rgb(252, 1, 176);
+    box-shadow: 0 0 152px 100px rgb(255, 255, 255);
+    box-shadow:0 0 215px 300px rgb(255, 255, 255);
+    box-shadow:0 0 430px 400px rgb(255, 255, 255);
+    box-shadow:0 0 860px 500px rgb(255, 255, 255);
+}

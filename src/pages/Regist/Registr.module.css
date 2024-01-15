@@ -1,0 +1,46 @@
+.root {
+  margin: 120px auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding: 20px;
+  background-color:  rgb(48, 45, 45);
+  max-width: 500px;
+  border-radius: 10px;
+  opacity: 50;
+  }
+  
+  .field {
+    display: block;
+    margin: 15px;
+    background-color: rgba(58, 58, 58, 0.235);
+    color: #ffffff;
+    border-radius: 15px;
+  }
+  
+  .title {
+    text-align: center !important;
+    font-weight: bold !important;
+    margin-bottom: 30px !important;
+  }
+
+  .buttonRegistr{
+    display: inline-block;
+    max-width: 300px;
+    margin: 0 auto;
+    font-size: 24 px;
+    letter-spacing: 1.6;
+    color: rgb(86, 80, 80);
+    background-color: rgb(31, 23, 23);
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-color: aliceblue;
+    border-radius: 10px;
+  }
+  .buttonRegistr:hover{
+    color: rgb(252, 227, 1);
+    text-shadow: 0 0 10px rgb(252, 160, 1);
+  }
+
